@@ -13,6 +13,7 @@ const Navbar: React.FC = () => {
           <Link className={loc.pathname === "/" ? "active" : ""} to="/">Home</Link>
           <Link className={loc.pathname === "/projects" ? "active" : ""} to="/projects">Projects</Link>
           <Link className={loc.pathname === "/gallery" ? "active" : ""} to="/gallery">Gallery</Link>
+          <Link className={loc.pathname === "/contact" ? "active" : ""} to="/contact">Contact</Link> 
         </nav>
       </div>
     </header>
